@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naresh Technologies</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="assets/fonts/css/all.css">
+    <link rel="shortcut icon" href="">
+</head>
+<body class="container-fluid">
+<header>
+    <h2 class="text-center p-5 bold">Indian Institute and Technologies</h2>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mx-3 rounded">
+        <div class="container-fluid position-relative">
+            <a href="#" class="navbar-brand">Menu</a>
+            <button class="navbar-toggler" data-bs-target="#responsiveNav" data-bs-toggle="collapse"> 
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="responsiveNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link active">
+                        <i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item"><a href="public/about.html" class="nav-link">
+                        <i class="far fa-question-circle"></i> About</a>
+                    </li>
+                    <li class="nav-item"><a href="public/services.html" class="nav-link">
+                        <i class="far fa-question-circle"></i> Services</a>
+                    </li>
+                    <li class="nav-item"><a href="public/contactUs.html" class="nav-link">
+                        <i class="far fa-address-book"></i> Contact US</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#"  data-bs-toggle="dropdown">
+                            <i class="fas fa-sign-in-alt"></i> SignIn
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a href="public/signIn.html" class="dropdown-item"><i class="fas fa-sign-in-alt"></i> SignIn</a></li>
+                            <li><a href="public/signOut.html" class="dropdown-item"><span class="fa fa-user-plus"></span> SignUp</a></li>
+                            <li><a href="public/changePwd.html" class="dropdown-item"><span class="fa fa-unlock-alt"></span> Change Password</a></li>
+                        </ul>
+                     </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<section>
+    <div class="slide carousel" id="sliderImg" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button data-bs-target="#sliderImg" data-bs-slide-to="0" class="active"></button>
+            <button data-bs-target="#sliderImg" data-bs-slide-to="1"></button> 
+            <button data-bs-target="#sliderImg" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../assets/images/slider1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/slider2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/slider3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#sliderImg" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#sliderImg" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <main>
+        <div class="row m-3">
+            <div class="d-flex justify-content-center align-content-center">
+                <button class="btn btn-warning">Show me what's in this package</button>
+            </div>
+            <div class="d-flex justify-content-center align-content-center mt-5">
+                <button class="btn btn-danger w-auto">What is the package</button> 
+            </div>
+        </div>
+        <div class="row pkg justify-content-center">
+            <p class="w-50 mt-3 small">* A package is a small container in which a quantity of something is sold. Packages are either small boxes made of thin cardboard, or bags or envelopes made of paper or plastic. ... When a product is packaged, it is put into containers to be sold.</p>
+        </div>
+        <div class="row pkg2 bg-light">
+            <div class="col-xl-8">
+                <table class="table h-auto talbe-striped table-bordered table-hover text-center bg-primary">
+                    <thead>
+                        <tr class="thead text-white">
+                            <th>Department</th>
+                            <th>Included</th>
+                        </tr>
+                </thead>
+                <tbody class=" table-light fs-5">
+
+                    <tr>
+                        <td>M.Tech</td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td>B.Tech</td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td>MCA</td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+            <div class="col-sm-12 col-lg-4 text-center">
+                <img class="img-fluid" src="../assets/images/groupMeeting.jpg" alt="">
+            </div>
+        </div>
+        <div class="row text-center text-black-50">
+            <h3 class="py-3">What is the job</h3>
+            <div class="col col-lg-2 col-md-6 col-sm-12 fntAwsm">
+                <i class="fas fa-keyboard "></i>
+                <h4>Types of jobs</h4>
+                <p>Volcanologist. ...</p>
+                <p>Quantum physicist. ...</p>
+                <p>Oceanographer. ...</p>
+                <p>Biomedical engineer. ...</p>
+            </div>
+            <div class="col col-lg-2 col-md-6 col-sm-12 fntAwsm">
+                <i class="fas fa-keyboard "></i>
+                <h4>Define job profile </h4>
+                <p>Job profile developed by the personnel department of a business might include such things as job responsibilities, required qualifications, advancement prospects</p>
+            </div>
+            <div class="col col-lg-2 col-md-6 col-sm-12 fntAwsm">
+                <i class="fas fa-keyboard "></i>
+                <h4>Job profile summary</h4>
+                <p>Profile summary is a summary of your education, skills, career experiences, and goals.</p>
+            </div>
+            <div class="col col-lg-2 col-md-6 col-sm-12 fntAwsm">
+                <i class="fas fa-keyboard "></i>
+                <h4>Coding.</h4>
+                <p>Communication.</p>
+                <p>Networks.</p>
+                <p>Time Management.</p>
+                <p>More Information Technology Skills.</p>
+            </div>
+            <div class="col col-lg-2 col-md-6 col-sm-12 fntAwsm">
+                <i class="fas fa-keyboard "></i>
+                <h4>Freshers key skill</h4>
+                <p>Ability to Work Under Pressure.</p>
+                <p>Decision Making.</p>
+                <p>Time Management.</p>
+                <p>Self-motivation.</p>
+                <p>Conflict Resolution.</p>
+                <p>personal skills?</p>
+                <p>Leadership.</p>
+                <p>Adaptability.</p>
+            </div>
+            <div class="col col-lg-2 col-md-6 col-sm-12 fntAwsm">
+                <i class="fas fa-keyboard "></i>
+                <h4>Personal skills</h4>
+                <p>A skill is the ability to do something well, a certain competence or proficiency. Skills are typically acquired or developed through direct experiences and training, and they can require sustained effort.</p>
+            </div> 
+        </div>
+        <div class="bg-light imfo">
+            <div class="row mt-3 pt-3 pb-3 mContent border-bottom">
+                <div class="col-lg-8 p-5">
+                    <span class="text-info">①</span><div class="d-inline"> Why do you want this job?</div>
+                    <p>  The hiring manager wants to: Learn about your career goals and how this position fits into your plan. Make sure that you are sincerely interested in the job and will be motivated to perform if hired. Find out what you know about the company, industry, position (and if you took the time to research).</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <img src="../assets/images/vectore6.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mt-3 pt-3 pb-3 mContent  border-bottom">
+                <div class="col-lg-4  text-center">
+                    <img src="../assets/images/vectore2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-8 p-5">
+                    <span class="text-warning">②</span><div class="d-inline"> What is a CV example?</div>
+                    <p>  A resume is a brief summary. ... If you were writing your resume you would include only the work information that relates specifically to the job you're applying for, but for a Curriculum Vitae, you would also include all your teaching experience, lab and field work..</p>
+                </div>
+            </div>
+            <div class="row mt-3 pt-3 pb-3 mContent  border-bottom">
+                <div class="col-lg-8 p-5">
+                    <span class="text-primary">③</span><div class="d-inline"> Do you need a resume for your first job?</div>
+                    <p> When writing your first resume with no work experience, it's appropriate to include casual jobs like babysitting, pet sitting, lawn mowing, and shoveling snow. All experience counts and the way you present yourself, your skills, and your assets to a hiring manager begins with a strong resume.</p>
+                </div>
+                <div class="col-lg-4  text-center">
+                    <img src="../assets/images/vectore3.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mt-3 pt-3 pb-3 mContent  border-bottom">
+                <div class="col-lg-4  text-center">
+                    <img src="../assets/images/vectore2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-8 p-5">
+                    <span class="text-danger">④</span><div class="d-inline">Why do you think you can do well in this job?</div>
+                    <p>  I believe I will do well in this job because I have the relevant skills and it is my field of interest. ... I have a confident that I can do well in the job because of self confidence, positive attitude. Previous success also brings self confidence for the future success.</p>
+                </div>
+            </div>
+       
+            <div class="my-3 d-flex justify-content-evenly">
+                <button class="btn btn-primary">Request call back</button>
+                <button class="btn btn-info">FAQ'S</button>
+            </div>
+        </div>
+        <div class="row text-center bg-dark fcontent text-white py-5">
+            <h3 class="py-4">Student Department Details</h3>
+            <div class="col-lg-3 border-bottom py-5">
+                <i class="fas fa-hourglass-start"></i>
+                <p>Average Salary Offered</p>
+                <h3>INR 7 L per annum</h3>
+                <span>per annum</span>
+            </div>
+            <div class="col-lg-3 border-bottom py-5">
+                <i class="fas fa-sync-alt"></i>
+                <p>Duration</p>
+                <h3>2</h3>
+                <span>years</span>
+            </div>
+            <div class="col-lg-3 border-bottom py-5">
+                <i class="far fa-thumbs-up"></i>
+                <p>Average Fees Incurred</p>
+                <h3>INR 25,000 - 2 L</h3>
+                <span>per annum</span>
+            </div>
+            <div class="col-lg-3 border-bottom py-5">
+                <i class="far fa-flag"></i>
+                <p>Indian Institute of Technology, [IIT] Kanpur
+                </p>
+                <h3>49,035</h3>
+                <span>Kanpur</span>
+            </div>
+            <div class="small pt-5">* job: A group of homogeneous tasks related by similarity of functions.</div>
+        </div>
+        <div class="row">
+            <h3 class="text-center pt-3">SERVICES</h3>
+        </div>
+        <div class="row row-cols-1 py-4 row-cols-md-3 g-4 mycard">
+            <div class="col pt-4">
+              <div class="card shadow-lg h-100">
+                <img src="../assets/images/dev3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">WEB DESIGN !!                </h5>
+                  <p class="card-text">Online ordering system helps to maintain a Better Business Relationship with your customers, which is a key factor to run any successful business.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col pt-4">
+              <div class="card h-100">
+                <img src="../assets/images/dev1.jpg" class="card-img-top" alt="...">
+                <div class="card-body shadow-lg">
+                  <h5 class="card-title">IT SERVICES !!</h5>
+                  <p class="card-text">We are ideally located in Larbert meaning we can offer IT support to businesses throughout Scotland. We take the hassle and worry out of your IT system by providing preventative and proactive IT support.
+                </p>
+                </div>
+              </div>
+            </div>
+            <div class="col pt-4">
+              <div class="card shadow-lg h-100">
+                <img src="../assets/images/dev2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">WEB MARKETING !!</h5>
+                  <p class="card-text">We are passionate about digital content creation, strategy and delivery. We deliver results by designing marketing strategies which improve our clients brand visibility.
+                </p>
+                </div>
+              </div>
+            </div>
+        </div>
+
+    </main>
+</section>
+<footer>
+<div class="row bg-dark justify-content-around text-white">
+    <h2 class="text-center py-4">Naresh Technologies</h2>
+    <div class="col-lg-2 col-sm-12 pt-3 border-top">
+        <ul>
+            <li> Facebook</li>
+            <li> Google</li>
+            <li> Tweeter</li>
+            <li> Youtube</li>
+        </ul>
+    </div>
+    <div class="col-lg-2 col-sm-12 pt-3 border-top">
+        <ul>
+            <li> Home</li>
+            <li> About</li>
+            <li> Service</li>
+            <li> Contact</li>
+        </ul>
+    </div>
+    <div class="col-lg-3 col-sm-12 pt-3 border-top">
+        <ul>
+            <li> Name : Naresh Istitute</li>
+            <li> Email : info@nareshit.com</li>
+            <li> Contact : +91-xxxxxxxxxx</li>
+            <li> Address : Sr nagar, Hyderabad, Telangana, India</li>
+        </ul>
+    </div>
+</div>
+</footer>
+
+    <!-- Scripts are here -->
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
